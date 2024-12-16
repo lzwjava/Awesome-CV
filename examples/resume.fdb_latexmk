@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1734335884 "/Users/lzwjava/projects/Awesome-CV/examples/resume.tex" "resume.pdf" "resume" 1734335884 2
-  "/Users/lzwjava/projects/Awesome-CV/examples/resume.tex" 1734335883 1834 8cfe19ae86a6519b227f6d0e140438d7 ""
+["pdflatex"] 1734336698 "/Users/lzwjava/projects/Awesome-CV/examples/resume.tex" "resume.pdf" "resume" 1734336699 2
+  "/Users/lzwjava/projects/Awesome-CV/examples/resume.tex" 1734336632 1783 da18d01b6fb0fbea965e3f2085c00098 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
@@ -34,8 +34,8 @@
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1682789291 7883452 853027ef3cf1931ee1555960478e924e ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "awesome-cv.cls" 1734331995 29600 8d40609025f93862de82a3e783397186 ""
-  "resume.aux" 1734335884 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "resume.tex" 1734335883 1834 8cfe19ae86a6519b227f6d0e140438d7 ""
+  "resume.aux" 1734336698 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "resume.tex" 1734336632 1783 da18d01b6fb0fbea965e3f2085c00098 ""
   (generated)
   "resume.aux"
   "resume.log"
