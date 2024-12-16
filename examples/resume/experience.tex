@@ -3,7 +3,6 @@
 %-------------------------------------------------------------------------------
 \cvsection{Work Experience}
 
-
 %-------------------------------------------------------------------------------
 %	CONTENT
 %-------------------------------------------------------------------------------
@@ -11,115 +10,125 @@
 
 %---------------------------------------------------------
   \cventry
-    {DevOps Engineer} % Job title
-    {Dunamu Inc.} % Organization
-    {Seoul, S.Korea} % Location
-    {Sep. 2023 - Present} % Date(s)
-    {
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Founding Member \& Site Reliability Engineer \& Infrastructure Team Lead} % Job title
-    {Danggeun Pay Inc. (KarrotPay)} % Organization
-    {Seoul, S.Korea} % Location
-    {Mar. 2021 - Jun. 2023} % Date(s)
+    {Backend Engineer} % Job title
+    {Tianjin Neusiri Information Technology} % Organization
+    {Tianjin, China} % Location
+    {Aug. 2024 - Oct. 2024} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Everything that matters.}
-        \item {Designed and provisioned the entire infrastructure on the AWS cloud to meet security compliance and acquire a business license for financial services in Korea.}
-        \item {Continuously improved the infrastructure architecture since launching the service. (currently 3.6 million users)}
-        \item {Established a standardized base for declarative management of infrastructures and service deployments, enabling operational efficiency and consistency. Over 90\% of AWS resources were all managed through standardized terraform modules. All add-ons and service workloads on the Kubernetes cluster were managed on a GitOps basis with Kustomize and ArgoCD.}
-        \item {Saved over 30\% of the overall AWS costs by establishing a quarterly purchasing strategiy for RI (Reserved Instance) and SP (Savings Plan) and by introducing Graviton instances.}
-        \item {Established a core architecture for regulating of outbound DNS traffic in multi-account and multi-VPC environments utilizing AWS Route53 DNS Firewall and FMS. This significantly increased the level of security confidence in the financial sector's segregated environment.}
-        \item {Introduced Okta employee identity solution in the company, establishing security policies and configuring SSO integration with over 20 enterprise systems including AWS, GitHub, Slack, Google Workspace. Set up a Hub and Spoke architecture, enabling a collaborative account structure with the parent company, Daangn Market.}
+        \item {Neusiri is a China-based high-tech enterprise specializing in IT outsourcing, and a subsidiary of Neusoft Holdings. Wipro is a leading tech services firm, and HSBC Bank is a global financial giant.}
+        \item {Successfully passed the interview and contracted directly with Neusiri and, through a partnership with Wipro, aimed to be assigned to HSBC Bank. However, due to HSBC Bank's latest vendor policy, the position was canceled. Participated in training courses provided by both Neusiri and Wipro.}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
-    {Site Reliability Engineer} % Job title
-    {Danggeun Market Inc.} % Organization
-    {Seoul, S.Korea} % Location
-    {Feb. 2021 - Mar. 2021} % Date(s)
-    {
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Founding Member \& Director of Infrastructure Division} % Job title
-    {Kasa} % Organization
-    {Seoul, S.Korea} % Location
-    {Jun. 2018 - Jan. 2021} % Date(s)
+    {Freelancer} % Job title
+    {Self-employed} % Organization
+    {} % Location
+    {Aug. 2023 - Jul. 2024} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Designed on-boarding process to guide new engineers, help them to focus on the right tasks, and set expectations to help them be successful at Infrastructure team.}
-        \item {Migrated the orchestration system from DC/OS to Kubernetes which is based on AWS EKS. Managed 3 Kubernetes clusters and 300+ pods. Managed all Kubernetes manifests declaratively with Kustomize and ArgoCD.}
-        \item {Designed and managed complex network configurations on AWS with 4 VPC and 100+ subnets. Separated the development network and operation network according to financial regulations. Established dedicated network connections from AWS VPC to partners' on-premise network based on AWS Direct Connect with secure connection using IPsec VPN. Provisioned OpenVPN servers with LDAP integration.}
-        \item {Provisioned a observability system with Kafka, Elastic Stack(Filebeat, Heartbeat, APM Server, Logstash, Elasticsearch, Kibana). Collected log, uptime, tracing data from hosts, containers, pods and more. The ES cluster which has 9 nodes processed more than 1 billion documents per month. Wrote Terraform module to easily provision ES cluster on AWS EC2 instances.}
-        \item {Provisioned a monitoring system with Kafka, Telegraf, InfluxDB, Grafana. Collected metrics from hosts, containers, pods and more. Wrote Terraform module to easily provision InfluxDB with HA on AWS EC2 instances.}
-        \item {Introduced Kong API Gateway to easily connect all API microservices with a declarative management method based on Terraform and Atlantis to collaborate and audit change history.}
-        \item {Provisioned the Directory Service for employee identity management based on OpenLDAP which guarantees HA with multi-master replication.}
-        \item {Implemented Worker microservices consuming Kafka event topics for email, SMS, Kakaotalk and Slack notification. Developed in-house framework to easily build Kafka consumer microservice with common features including retry on failure, DLQ(Dead Letter Queue), event routing and more.}
-        \item {Introduced Elastic APM to help distributed tracing, trouble-shooting and performance testing in MSA.}
+        \item {Analyzed and reimplemented some core parts around 30 example projects about machine learning, from PyTorch, TensorFlow tutorials, Coursera online courses or other open-source projects. Obtained two course completion certificates from Coursera about Machine Learning Specialization and Deep Learning Specialization.}
+        \item {Prepared for exams related to obtaining an associate degree, with a focus on subjects such as advanced mathematics, computer organization, linear algebra, etc. Listened to a lot of Japanese songs and watched a lot of Japanese TikTok videos to learn the language.}
+        \item {Participated as a Full Stack Developer in an AI-powered story bot project using Claude's API for personalized stories. The bot supports prompt setting and includes a management page for configuration. Developed with Python, Flask, React, and Nginx, and deployed on AWS. Used Prometheus for monitoring, ELK stack for log management, and ChatGPT-4 for programming assistance.}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
-    {Software Architect} % Job title
-    {Omnious. Co., Ltd.} % Organization
-    {Seoul, S.Korea} % Location
-    {Jun. 2017 - May. 2018} % Date(s)
+    {Backend Engineer} % Job title
+    {Shenzhen Farben Information Technology Co.} % Organization
+    {Shenzhen, China} % Location
+    {Nov. 2022 - Jul. 2023} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Provisioned an easily managable hybrid infrastructure(Amazon AWS + On-premise) utilizing IaC(Infrastructure as Code) tools like Ansible, Packer and Terraform.}
-        \item {Built fully automated CI/CD pipelines on CircleCI for containerized applications using Docker, AWS ECR and Rancher.}
-        \item {Designed an overall service architecture and pipelines of the Machine Learning based Fashion Tagging API SaaS product with the micro-services architecture.}
-        \item {Implemented several API microservices in Node.js Koa and in the serverless AWS Lambda functions.}
-        \item {Deployed a centralized logging environment(ELK, Filebeat, CloudWatch, S3) which gather log data from docker containers and AWS resources.}
-        \item {Deployed a centralized monitoring environment(Grafana, InfluxDB, CollectD) which gather system metrics as well as docker run-time metrics.}
+        \item {Farben is a leading software technology service provider in China. HSBC Bank is one of the largest banking and financial services institutions in the world. PayMe is an HSBC mobile payment service catering to Hong Kong residents.}
+        \item {Contracting through Farben, assigned to work for HSBC Bank and contributed to the PayMe project. Participated in the backend development for the Auto Top Up feature, which automatically tops up funds from the user's credit or debit card when their balance falls below a certain amount. Monitored post-payment events from Azure EventHub and checked for top-ups whenever a user set up their auto top-up configuration. Used dedicated object-oriented programming to handle cases elegantly and applied aspect-oriented programming to audit logs for changes in the auto top-up table.}
+        \item {Actively contributed to cloud migration following participation in the company's AWS training. Refactored APIs to utilize request header-based routing, ensured secure access and database configurations, and participated in deploying microservices to the new cloud infrastructure.}
+        \item {Utilized a strong tech stack including Java, Spring, and Kafka, along with Azure, Azure DevOps, and AWS for cloud services and continuous integration.}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
-    {Co-founder \& Software Engineer} % Job title
-    {PLAT Corp.} % Organization
-    {Seoul, S.Korea} % Location
-    {Jan. 2016 - Jun. 2017} % Date(s)
+    {Backend Engineer} % Job title
+    {Beyondsoft Consulting Inc.} % Organization
+    {Guangzhou, China} % Location
+    {Dec. 2021 - Nov. 2022} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Implemented RESTful API server for car rental booking application(CARPLAT in Google Play).}
-        \item {Built and deployed overall service infrastructure utilizing Docker container, CircleCI, and several AWS stack(Including EC2, ECS, Route 53, S3, CloudFront, RDS, ElastiCache, IAM), focusing on high-availability, fault tolerance, and auto-scaling.}
-        \item {Developed an easy-to-use Payment module which connects to major PG(Payment Gateway) companies in Korea.}
+        \item {Beyondsoft Consulting is a leading business IT and consulting company. DBS Bank is the largest bank in Southeast Asia by assets and among the largest banks in Asia.}
+        \item {Contracting with Beyondsoft, assigned to work for DBS Bank and contributed to DBS Client Connect and DBS DigiBank CN projects.}
+        \item {In the DBS Client Connect project, contributed to the development of the equity trading microservice. Responsibilities included creating functionalities for equities display, customer display, pre-trade checks, and placing actual equity trade orders. Integrated Avaloq APIs to enhance the underlying infrastructure and improved the user experience by implementing an edit distance algorithm to refine stock code searches.}
+        \item {In the DBS DigiBank CN project, actively contributed to the development of several microservices handling mutual funds management, structured investment products, investment portfolios, and transaction lists. Assisted with performance tests by analyzing logs from Pivotal Cloud Foundry to generate reports on the QPS of the microservices. Developed a tool to automate test generation for the testing tool Karate, streamlining the testing process and improving test coverage.}
+        \item {Leveraged cloud technologies and modern frameworks, employing automation best practices with tools such as Java, Spring Cloud, Jira, Confluence, Jenkins, Pivotal Cloud Foundry, and Kibana, and utilizing BDD and TDD methodologies.}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
-  \cventry
-    {Software Engineer \& Security Researcher (Compulsory Military Service)} % Job title
-    {R.O.K Cyber Command, MND} % Organization
-    {Seoul, S.Korea} % Location
-    {Aug. 2014 - Apr. 2016} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.}
-      \end{cvitems}
-    }
+\cventry
+{Freelancer} % Job title
+{Self-employed} % Organization
+{} % Location
+{Jan. 2020 - Nov. 2021} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Authored and published technical blogs to share knowledge online, improved English proficiency through engaging with Netflix and literature, and enhanced problem-solving skills by tackling around 500 algorithm problems and participating in Codeforces competitions.}
+    \item {Gained a little hands-on experience with big data and cloud-native technologies by exploring introductory tutorials and running examples for Spark, Hadoop, Kubernetes, and Docker.}
+    \item {Completed various software projects as a freelancer, including LED Sign Website Development, Enterprise WeChat Integration for ShowMeBug, Web Scraper for Trade Data Collection, and an eBook tool called mathjax2mobi.}
+    \item {LED Sign Website Development (lvchensign.com): Developed a website for an LED sign manufacturing company using Bootstrap, HTML, and JavaScript. Implemented features for showcasing products.}
+    \item {Enterprise WeChat Integration for ShowMeBug: Contributed to the integration of ShowMeBug with Enterprise WeChat, enabling seamless access to technical interview tools within the Enterprise WeChat ecosystem. Utilized technologies like Ruby, Ruby On Rails, PostgreSQL, and the WeChat SDK to create a smooth user experience for interviewers and candidates.}
+    \item {Web Scraper for Trade Data Collection: Developed a web scraper using Python and Selenium to collect trade data for a non-woven fabric company. Automated data extraction and page navigation, processed and stored the data in a SQLite database, and generated reports for business analysis.}
+    \item {mathjax2mobi: A tool designed to convert HTML content with MathJax equations into eBook-friendly formats. By transforming LaTeX-based MathJax equations into SVG images, it ensures compatibility with eBook formats like MOBI. Technologies used include Python, BeautifulSoup, and Selenium.}
+  \end{cvitems}
+}
 
 %---------------------------------------------------------
-  \cventry
-    {Software Engineer} % Job title
-    {ShitOne Corp.} % Organization
-    {Seoul, S.Korea} % Location
-    {Dec. 2011 - Feb. 2012} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Developed a proxy drive smartphone application which connects proxy driver and customer.}
-        \item {Implemented overall Android application logic and wrote API server for community service, along with lead engineer who designed bidding protocol on raw socket and implemented API server for bidding.}
-      \end{cvitems}
-    }
+\cventry
+{Founder \& Full Stack Engineer} % Job title
+{Beijing Square Root Inc.} % Organization
+{Beijing, China} % Location
+{Jul. 2016 - Dec. 2019} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Beijing Square Root Inc. ran two businesses in 3.5 years. From July 2016 to September 2017, it rolled out and operated Fun Live, a knowledge live broadcast platform. From January 2018 to December 2019, it transformed into a software consulting business.}
+    \item {With Fun Live, users could participate in various knowledge lectures such as programming or design. Users could pay fees to attend live sessions or reward lecturers. The lecturer used the OBS tool to push live streams to the server. Users could participate in the lecture in real-time or see the playback later. The platform integrated seamlessly with WeChat for notifications. Hosted around 80 lectures, gained 30,000 users and millions of page views. Responsible for most software development and marketing, leveraging PHP, Vue, HTML, CodeIgniter, MySQL, Redis, LeanCloud, Alibaba Cloud, and WeChat SDK.}
+    \item {During the software consulting business period, completed 50 small software projects for customers, including websites, games, and apps. The revenue was around 3 million RMB and the profit was around 700 thousand RMB. Responsible for project negotiation, team management, and some software development. Notable projects are shown below.}
+    \item {MianbaoLive: Led a comprehensive backend refactoring effort for MianbaoLive, a one-stop content monetization and social economy platform. Optimized the performance, stability, and user experience of the entire tech stack. Previously used ThinkPHP, Node.js, and Go, and rewrote everything in Laravel for server-side development. The platform included modules for courses, users, content, user attendance, payments, and distribution sales. Partnered with Himalaya, a top audio platform in China, and synchronized content between the platforms.}
+    \item {Jiangsu TV's Super Brain Program WeChat Mini Program: Responsible for all backend development and half of the frontend development for the Super Brain program’s WeChat Mini Program. Engaged viewers with interactive puzzle games, enabling them to compete and rank to become the "Super Brain." Used the WeChat Mini Program framework and Wepy (Vue.js) to create game components and ranking pages. Integrated RESTful APIs to fetch game data and user information. Performed extensive performance tuning to ensure the system could handle high concurrency, leveraging caching technologies such as Redis.}
+    \item {Chongding Conference: Spearheaded full-stack engineering for Chongding Conference, a mobile trivia app in China resembling HQ Trivia. Designed and implemented services and APIs to handle live trivia events, user management, and real-time question and answer sessions. Utilized Java and Spring for the backend, with Redis and Kafka for caching and message queuing, Zookeeper for service coordination, and Socket.IO for real-time interactions. Developed the admin panel to help operators control the game. The app supported live streaming, real-time interaction, and robust performance under high traffic conditions. Contributed to technical discussions for using SEI (Supplemental Enhancement Information) to synchronize the timestamp of the live streaming with the trivia game interactions.}
+  \end{cvitems}
+}
+
+%---------------------------------------------------------
+\cventry
+{Cofounder \& Full Stack Engineer} % Job title
+{Beijing Dami Entertainment Co.} % Organization
+{Beijing, China} % Location
+{Nov. 2015 - Jul. 2016} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Beijing Dami Entertainment Co. was a company founded by 6 Internet enthusiasts, including me. Launched and operated the platform CodeReview, a professional platform for code review, communication, and sharing. Gained around 3,000 users.}
+    \item {The platform included functionalities such as user management, code submission and review processes, notification systems, payment integration, and event and workshop management. Engineers could submit their code for expert review to improve its quality, and experts received fees for their reviews. The platform also offered workshops and events open to users.}
+    \item {Responsible for the development of the backend and half of the frontend. Utilized a strong tech stack including PHP, Vue, CodeIgniter, Alibaba Cloud, and Ping++.}
+  \end{cvitems}
+}
+
+%---------------------------------------------------------
+\cventry
+{Software Engineer} % Job title
+{Delicious Bookmarks (LeanCloud)} % Organization
+{Beijing, China} % Location
+{Jul. 2014 - Nov. 2015} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Delicious Bookmarks is a leading cloud computing provider in China, known as LeanCloud. It offers a complete set of cloud services including object storage, file storage, web hosting, containers, instant messaging, push notifications, SMS, and game backends. The company serves hundreds of thousands of developer users.}
+    \item {Participated in the development of LeanCloud Objective-C SDK and Java SDK. Responsible for the development of LeanChat iOS client and Android client, a chat application designed to demonstrate the instant messaging SDK. Additionally, worked on various frontend projects.}
+    \item {Employed a robust tech stack, leveraging modern tools such as iOS SDK, Android SDK, Cocoapods, Xcode, Android Studio, and the Angular framework.}
+  \end{cvitems}
+}
+
 
 %---------------------------------------------------------
 \end{cventries}
